@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">constraint practice</string>
+    <string name="breakfast"><![CDATA[Breakfast➔]]></string>
+    <string name="lunch"><![CDATA[Lunch➔]]></string>
+    <string name="dinner"><![CDATA[Dinner➔]]></string>
+    <string name="tea"><![CDATA[Tea➔]]></string>
+    <string name="tap_on_the_meal_name_to_scan_and_avail_food">Tap on the meal name to scan and avail food.</string>
+    <string name="dinner2">Dinner</string>
+    <string name="_12306541">11111</string>
+    <string name="akshat_paul">Akshat Paul</string>
+    <string name="central_mess_2">Central Mess - 2</string>
+    <string name="mess_pass">Mess Pass</string>
+    <string name="p132_b_tech_computer_science_and_engineering_2023">P132:B.Tech. (Computer Science and Engineering)(2023)</string>
+    <string name="you_can_avail_this_meal">You can avail this meal !</string>
+    <string name="father_s_name">Father\'s Name</string>
+    <string name="manmohan_paul_9419676052">XYZ</string>
+    <string name="mother_s_name">Mother\'s Name</string>
+    <string name="meenu_jasrotia_919906372100">XYZ</string>
+    <string name="session">Session</string>
+    <string name="p132_b_tech_computer_science_and_engineering">P132:B.Tech. (Computer Science and Engineering)</string>
+    <string name="date">Date</string>
+    <string name="breakfast2">Breakfast</string>
+    <string name="time">Time</string>
+</resources>
