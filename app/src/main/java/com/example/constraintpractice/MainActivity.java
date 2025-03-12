@@ -5,6 +5,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 
 import androidx.activity.EdgeToEdge;
@@ -32,6 +33,8 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+        View sidebarButton = findViewById(R.id.sidebar_button);
+        sidebarButton.setOnClickListener(v -> openFeedbackActivity());
         button = findViewById(R.id.button);
         button2 = findViewById(R.id.button2);
         button3 = findViewById(R.id.button3);
@@ -41,12 +44,16 @@ public class MainActivity extends AppCompatActivity {
         button3.setOnClickListener(v -> scanCode(3));
         button4.setOnClickListener(v -> scanCode(4));
     }
-
+    private void openFeedbackActivity() {
+        Intent intent = new Intent(MainActivity.this, FeedbackActivity.class);
+        startActivity(intent);
+    }
     private void scanCode(int buttonId) {
         ScanOptions options = new ScanOptions();
         currentButtonId = buttonId;
         options.setPrompt("Volume up to flash on");
         options.setBeepEnabled(true);
+
         options.setOrientationLocked(true);
         options.setCaptureActivity(CaptureAct.class);
         barLauncher.launch(options);
