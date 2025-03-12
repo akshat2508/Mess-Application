@@ -14,9 +14,8 @@ A sleek and efficient **Android application** built with **Kotlin** and **Jetpac
 ---
 
 ## 🏗️ Tech Stack
-- **Language:** Kotlin ☕
-- **Framework:** Android Jetpack 🏗️
-- **UI:** Material Design 🎨
+- **Language:** Java ☕
+- **UI:** Lpu touch clone 🎨
 - **Build System:** Gradle ⚙️
 - **Backend:** None (Static App) 🚫
 
