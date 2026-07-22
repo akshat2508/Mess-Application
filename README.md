@@ -53,16 +53,6 @@ cd Mess-Application
 - Select an emulator or connect a real device.
 - Click the **Run ▶️** button to start the app.
 
----
-
-## 🤝 Contributing
-Want to improve the app? **Fork it, clone it, and submit a PR!** 🔥
-```sh
-git checkout -b feature-branch
-git add .
-git commit -m "Added a cool new feature"
-git push origin feature-branch
-```
 
 ---
 
@@ -75,5 +65,5 @@ git push origin feature-branch
 - Check for missing dependencies in `build.gradle.kts`.
 - Ensure you have the latest Android SDK installed.
 
----
+
 
